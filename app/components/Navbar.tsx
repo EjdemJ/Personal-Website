@@ -42,12 +42,12 @@ const Navbar: React.FC<Props> = ({
               </Link>
             </li>
             <li className="text-[16px] tracking-wide text-gray-400 duration-300 after:block after:h-[1px] after:w-0 after:bg-blue-600 after:transition-all after:content-[''] hover:text-white hover:after:w-full">
-              <Link href="#" onClick={scrollToProcess}>
+              <Link href="#process" onClick={scrollToProcess}>
                 Process
               </Link>
             </li>
             <li className="text-[16px] tracking-wide text-gray-400 duration-300 after:block after:h-[1px] after:w-0 after:bg-blue-600 after:transition-all after:content-[''] hover:text-white hover:after:w-full">
-              <Link href="#">Contact</Link>
+              <Link href="#contact">Contact</Link>
             </li>
           </ul>
           <Button text="Contact Me" isHover changeBg={false} />
