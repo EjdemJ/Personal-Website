@@ -16,10 +16,10 @@ import Skills from "./components/Skills";
 import Process from "./components/Process";
 import Contact from "./components/Contact";
 
-export const metadata = {
-  title: "Adam Personal Website",
-  description: "Personal Website made with the newest technologies",
-};
+// export const metadata = {
+//   title: "Adam Personal Website",
+//   description: "Personal Website made with the newest technologies",
+// };
 
 export default function RootLayout({
   children,
