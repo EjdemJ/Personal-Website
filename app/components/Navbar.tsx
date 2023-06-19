@@ -9,12 +9,14 @@ type Props = {
   scrollToAbout: () => void;
   scrollToSkills: () => void;
   scrollToProcess: () => void;
+  scrollToContactForm: () => void;
 };
 
 const Navbar: React.FC<Props> = ({
   scrollToAbout,
   scrollToSkills,
   scrollToProcess,
+  scrollToContactForm,
 }) => {
   return (
     <>
@@ -46,11 +48,13 @@ const Navbar: React.FC<Props> = ({
                 Process
               </Link>
             </li>
-            <li className="text-[16px] tracking-wide text-gray-400 duration-300 after:block after:h-[1px] after:w-0 after:bg-blue-600 after:transition-all after:content-[''] hover:text-white hover:after:w-full">
-              <Link href="#contact">Contact</Link>
-            </li>
           </ul>
-          <Button text="Contact Me" isHover changeBg={false} />
+          <Button
+            text="Contact Me"
+            isHover
+            changeBg={false}
+            onClick={scrollToContactForm}
+          />
         </div>
       </nav>
     </>

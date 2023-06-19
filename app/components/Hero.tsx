@@ -7,16 +7,18 @@ import Button from "./Button";
 
 type Props = {
   scrollToAbout: () => void;
+  scrollToContactForm: () => void;
 };
 
 const Hero = forwardRef<HTMLElement, Props>((props, ref) => {
   Hero.displayName = "Hero";
 
-  const { scrollToAbout } = props;
+  const { scrollToAbout, scrollToContactForm } = props;
 
   return (
-    <section className="relative h-full w-screen">
+    <div className="relative h-full w-screen">
       <video
+        poster="img/poster.png"
         className="pointer-events-none absolute bottom-0 left-0 z-[-1] h-[calc(100%+130px)] w-full object-cover"
         autoPlay
         loop
@@ -45,12 +47,18 @@ const Hero = forwardRef<HTMLElement, Props>((props, ref) => {
           data-aos="fade-right"
           data-aos-delay="400"
         >
-          <Button text="GET IN TOUCH" isHover={false} changeBg fontLg />
+          <Button
+            text="GET IN TOUCH"
+            isHover={false}
+            changeBg
+            fontLg
+            onClick={scrollToContactForm}
+          />
           <Button text="LEARN MORE" isHover={false} changeBg={false} fontLg />
         </div>
         <ArrowDown onClick={scrollToAbout} />
       </div>
-    </section>
+    </div>
   );
 });
 

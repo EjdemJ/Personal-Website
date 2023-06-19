@@ -33,8 +33,12 @@ body {
   );
 }
 
+section {
+  @apply overflow-hidden;
+}
+
 .grid-icons {
-  @apply gap-16 px-56 lg:gap-24;
+  @apply /* */ gap-16 lg:gap-24 lg:px-56;
   display: grid;
   justify-content: center;
   justify-items: center;

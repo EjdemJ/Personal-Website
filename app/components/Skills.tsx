@@ -4,7 +4,7 @@ const Skills = forwardRef<HTMLElement | null>((props, ref) => {
   Skills.displayName = "Skills";
   return (
     <section className="min-h-screen" ref={ref}>
-      <div className="container pb-20 pt-28 lg:pb-0">
+      <div className="container pb-16 pt-28 lg:pb-0">
         <div className="flex flex-col">
           <div className="flex flex-col items-center gap-6">
             <h3

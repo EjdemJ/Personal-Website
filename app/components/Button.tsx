@@ -1,13 +1,15 @@
 type Props = {
   text: string;
-  isHover: boolean;
-  changeBg: boolean;
+  isHover?: boolean;
+  changeBg?: boolean;
   fontLg?: boolean;
+  onClick?: () => void;
 };
 
-const Button = ({ text, isHover, changeBg, fontLg }: Props) => {
+const Button = ({ text, isHover, changeBg, fontLg, onClick }: Props) => {
   return (
     <button
+      onClick={onClick}
       className={`z-1 group relative rounded-md px-6 py-4 text-white ${
         changeBg && "bg-blue-600 transition-all duration-300 hover:bg-blue-400"
       } ${fontLg && "text-[16px]"}`}
