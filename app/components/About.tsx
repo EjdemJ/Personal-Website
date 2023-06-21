@@ -51,7 +51,7 @@ const About = forwardRef<HTMLElement | null>((props, ref) => {
             className="max-w-4xl px-12 text-center text-[15px] text-gray-400 lg:text-[19px]"
             data-aos="fade-in"
           >
-            You are the one who is steering your business. What we provide is
+            You are the one who is steering your business. What I provide is
             safe, solid and fast technology, as well as trusted staff that will
             support you on every stage.
           </p>

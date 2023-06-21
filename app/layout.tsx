@@ -31,7 +31,7 @@ export default function RootLayout({
   const skillsRef = useRef<HTMLElement | null>(null);
   const processRef = useRef<HTMLElement | null>(null);
   const contactFormRef = useRef<HTMLElement | null>(null);
-  const messageAreaRef = useRef<any>(null);
+  // const messageAreaRef = useRef<any>(null);
 
   const scrollToAbout = () => {
     if (aboutRef?.current)
@@ -53,11 +53,11 @@ export default function RootLayout({
     }
   };
 
-  const focusOnMessageArea = () => {
-    if (messageAreaRef?.current) {
-      messageAreaRef?.current.focus();
-    }
-  };
+  // const focusOnMessageArea = () => {
+  //   if (messageAreaRef?.current) {
+  //     messageAreaRef?.current.focus();
+  //   }
+  // };
 
   useEffect(() => {
     Aos.init();
@@ -81,11 +81,8 @@ export default function RootLayout({
           <About ref={aboutRef} />
           <Skills ref={skillsRef} />
           <Process ref={processRef} />
-          <GetInTouch focusOnMessageArea={focusOnMessageArea} />
-          <ContactForm
-            contactFormRef={contactFormRef}
-            messageAreaRef={messageAreaRef}
-          />
+          <GetInTouch />
+          <ContactForm contactFormRef={contactFormRef} />
           <Footer />
         </body>
       </html>

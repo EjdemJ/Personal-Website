@@ -24,7 +24,7 @@ const Hero = forwardRef<HTMLElement, Props>((props, ref) => {
         loop
         muted
       >
-        <source src="videos/bg-video.mp4" type="video/mp4" />
+        <source src="videos/bg-vid.mp4" type="video/mp4" />
       </video>
       <div className="container flex h-[calc(100vh-80px)] flex-col justify-center">
         <h1

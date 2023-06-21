@@ -1,13 +1,13 @@
+import Link from "next/link";
 import Button from "./Button";
 
-type Props = {
-  focusOnMessageArea: () => void;
-};
-
-const GetInTouch: React.FC<Props> = ({ focusOnMessageArea }) => {
+const GetInTouch: React.FC = () => {
   return (
     <section>
-      <div className="container flex flex-col justify-center gap-12 pb-24 lg:flex-row lg:pb-40">
+      <div
+        className="container flex flex-col justify-center gap-12 pb-24 lg:flex-row lg:pb-40"
+        data-aos="zoom-in-up"
+      >
         <div className="flex flex-col gap-5">
           <h3 className="relative max-w-2xl text-[46px] leading-[1.3] tracking-wide text-white">
             <span>From start-ups to medium enterprises</span>
@@ -19,13 +19,9 @@ const GetInTouch: React.FC<Props> = ({ focusOnMessageArea }) => {
           </p>
         </div>
         <div className="flex items-center justify-center lg:justify-end">
-          <Button
-            text="Get in touch"
-            changeBg={false}
-            isHover
-            fontLg
-            onClick={focusOnMessageArea}
-          />
+          <Link href="https://drive.google.com/file/d/1j2-WPRDOv7ddjsH8_VwXItfPiXMZJ5Rb/view?usp=drive_link">
+            <Button text="Download CV" changeBg={false} isHover fontLg />
+          </Link>
         </div>
       </div>
     </section>
