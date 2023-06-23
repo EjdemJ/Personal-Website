@@ -84,7 +84,7 @@ export const tabs = [
       </svg>
     ),
     heading: "Develop",
-    subheading: "Front-end / Back-end",
+    subheading: "Front-end / Backend",
   },
   {
     svg: (

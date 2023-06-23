@@ -17,6 +17,7 @@ const Hero = forwardRef<HTMLElement, Props>((props, ref) => {
 
   return (
     <div className="relative h-full w-screen">
+      <div className="absolute left-0 top-0 h-[calc(100%+130px)] w-full -translate-y-[130px] bg-black opacity-30"></div>
       <video
         poster="img/poster.png"
         className="pointer-events-none absolute bottom-0 left-0 z-[-1] h-[calc(100%+130px)] w-full object-cover"
@@ -24,7 +25,7 @@ const Hero = forwardRef<HTMLElement, Props>((props, ref) => {
         loop
         muted
       >
-        <source src="videos/bg-vid.mp4" type="video/mp4" />
+        <source src="videos/bg-video.mp4" type="video/mp4" />
       </video>
       <div className="container flex h-[calc(100vh-80px)] flex-col justify-center">
         <h1

@@ -6,6 +6,8 @@ import { z } from "zod";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import toast, { Toaster } from "react-hot-toast";
+// import formData from "form-data"
+// import Mailgun from "mailgun.js"
 
 type Props = {
   contactFormRef: RefObject<HTMLElement>;
@@ -39,7 +41,7 @@ const ContactForm = forwardRef<HTMLFormElement, Props>((props, ref) => {
     reset,
     formState: { errors, isSubmitting, isValid },
     register,
-    watch,
+    // watch,
   } = useForm<FormSchemaType>({
     mode: "onTouched",
     resolver: zodResolver(FormSchema),

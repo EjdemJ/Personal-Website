@@ -25,9 +25,11 @@ const About = forwardRef<HTMLElement | null>((props, ref) => {
             data-aos="fade-in"
             data-aos-delay="100"
           >
-            I will grant efficient design and agile development for long-lasting
-            products so that you can focus on defining further goals. Although I
-            support you in your marathon to global success.
+            I specialize in creating efficient and visually appealing designs
+            for long-lasting products, while also utilizing agile development
+            methodologies. With my skills, you can confidently entrust me with
+            your projects while you focus on defining future goals. I am
+            dedicated to supporting your journey towards global success.
           </p>
         </div>
         <span
@@ -80,9 +82,10 @@ const About = forwardRef<HTMLElement | null>((props, ref) => {
               </svg>
               <span>Discovery Phase</span>
               <p className="text-left text-gray-400">
-                That’s where you tell me where you want to go. Together with my
-                skills on design, development and project management, you decide
-                on the most efficient solutions that will be tailored to your
+                During the Discovery Phase, I collaborate with you to understand
+                your vision and goals. With my skills in design, development,
+                and project management, we work together to identify the most
+                efficient solutions that will be tailored to your specific
                 needs.
               </p>
             </div>
@@ -124,11 +127,12 @@ const About = forwardRef<HTMLElement | null>((props, ref) => {
                   strokeLinejoin="round"
                 ></path>
               </svg>
-              <span>Product Design</span>
+              <span>User-Centric Design</span>
               <p className="text-left text-gray-400">
-                That phase is all about your clients. I define users’ personas
-                and create a user’s journey to discover the most engaging design
-                that will attract your clients to your brand like a magnet.
+                In the Product Design phase, I prioritize your clients and their
+                needs. By defining user personas and creating engaging user
+                journeys, I craft designs that will captivate your target
+                audience and draw them to your brand like a magnet.
               </p>
             </div>
             <div
@@ -153,12 +157,12 @@ const About = forwardRef<HTMLElement | null>((props, ref) => {
                   strokeLinejoin="round"
                 ></path>
               </svg>
-              <span>Software Development</span>
+              <span>Efficient Software Development</span>
               <p className="text-left text-gray-400">
-                My main focus is to combine the highest quality code with the
-                lowest technical debt, ensuring the best security and stability.
-                I make sure that your product will be easily scalable in the
-                future.
+                As a front-end developer, my primary focus is on delivering
+                high-quality code with minimal technical debt. I prioritize
+                security and stability, ensuring that your web software is
+                robust and scalable for future growth.
               </p>
             </div>
           </div>

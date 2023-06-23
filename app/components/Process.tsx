@@ -22,34 +22,34 @@ const Process = forwardRef<HTMLElement | null>((props, ref) => {
           className="flex flex-[5] flex-col justify-evenly gap-8"
           data-aos="fade-left"
         >
-          <h3 className="max-w-3xl text-[46px] leading-[1.3] tracking-wide text-white">
-            <span>Hire an experienced engineer for your project</span>
+          <h3 className="max-w-[80%] text-[46px] leading-[1.3] tracking-wide text-white">
+            <span>Partner with a dedicated front-end developer</span>
           </h3>
           <p className="max-w-lg text-base leading-[1.5] text-gray-400 lg:text-[20px]">
-            I aim high while paying attention to the smallest details. I work in
-            precisely planned process to scope, design, develop and launch a
-            scalable software that will help you conquer the markets.
+            I strive for excellence by setting high standards for my work. I aim
+            to deliver solutions that meet industry best practices and pay
+            meticulous attention to even the smallest details.
           </p>
           <ul className="flex flex-col gap-5">
             <li className="flex items-center gap-4 text-gray-400">
               <span className="h-[8px] w-[8px] rounded-full bg-blue-600" />
-              Transparent, iterative process
+              Transparent and Iterative Development
             </li>
             <li className="flex items-center gap-4 text-gray-400">
               <span className="h-[8px] w-[8px] rounded-full bg-blue-600" />
-              Quality-driven approach
+              Commitment to Quality
             </li>
             <li className="flex items-center gap-4 text-gray-400">
               <span className="h-[8px] w-[8px] rounded-full bg-blue-600" />
-              Agile work management
+              Agile Work Management
             </li>
             <li className="flex items-center gap-4 text-gray-400">
               <span className="h-[8px] w-[8px] rounded-full bg-blue-600" />
-              Focus on partnership
+              Partnership-Oriented Mindset
             </li>
             <li className="flex items-center gap-4 text-gray-400">
               <span className="h-[8px] w-[8px] rounded-full bg-blue-600" />
-              User-centered attitude
+              User-Centered Approach
             </li>
           </ul>
         </div>
