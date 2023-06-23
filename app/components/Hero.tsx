@@ -55,7 +55,13 @@ const Hero = forwardRef<HTMLElement, Props>((props, ref) => {
             fontLg
             onClick={scrollToContactForm}
           />
-          <Button text="LEARN MORE" isHover={false} changeBg={false} fontLg />
+          <Button
+            text="LEARN MORE"
+            isHover={false}
+            changeBg={false}
+            fontLg
+            onClick={scrollToAbout}
+          />
         </div>
         <ArrowDown onClick={scrollToAbout} />
       </div>
